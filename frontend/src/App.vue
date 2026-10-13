@@ -56,5 +56,5 @@ body { background: #f5f7fa; font-family: 'Helvetica Neue', Helvetica, 'PingFang 
 .menu { flex: 1; border-bottom: none !important; }
 .user-area { white-space: nowrap; display: flex; align-items: center; gap: 4px; }
 .welcome { color: #606266; margin-right: 8px; }
-.main { max-width: 1200px; margin: 0 auto; width: 100%; }
+.main { max-width: 1400px; margin: 0 auto; width: 100%; }
 </style>

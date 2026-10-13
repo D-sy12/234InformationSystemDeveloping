@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { ElMessage } from 'element-plus'
 import api from '@/api'
@@ -14,6 +14,9 @@ const keyword = ref('')
 const category = ref('')
 const type = ref('all')
 const loading = ref(false)
+
+// 游客查看实体图书分类时，显示登录引导提示
+const guestPhysical = computed(() => !store.isLoggedIn && type.value === 'physical')
 
 async function load() {
   loading.value = true
@@ -80,7 +83,16 @@ onMounted(load)
       </el-input>
     </div>
 
-    <div v-loading="loading" class="grid">
+    <el-empty v-if="guestPhysical" style="padding: 60px 0">
+      <template #description>
+        <p class="tip-title">实体图书需登录后查看与借阅</p>
+        <p class="tip-sub">注册账号即可在线预约实体图书，每本借阅期 7 天，到期前会邮件提醒还书</p>
+      </template>
+      <el-button type="primary" @click="router.push('/login')">登录</el-button>
+      <el-button @click="router.push('/register')">免费注册</el-button>
+    </el-empty>
+
+    <div v-else v-loading="loading" class="grid">
       <el-card v-for="book in books" :key="book.id" class="book-card" shadow="hover" :body-style="{ padding: 0 }">
         <div class="cover" @click="book.is_online && router.push(`/read/${book.id}`)">
           <img v-if="book.cover_url" :src="book.cover_url" alt="" @error="book.cover_url = ''" />
@@ -126,6 +138,8 @@ onMounted(load)
 
 <style scoped>
 .toolbar { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 20px; }
+.tip-title { font-size: 17px; font-weight: 600; color: #303133; margin: 0 0 6px; }
+.tip-sub { font-size: 13px; color: #909399; margin: 0; }
 
 .grid {
   display: grid;

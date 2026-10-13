@@ -54,12 +54,12 @@ INSERT INTO books (title, author, category, cover_url, description, is_online, o
 ('西游记', '吴承恩', '古典文学', '/static/covers/xiyouji.svg', '神魔章回体长篇小说', 1, '/static/books/xiyouji.txt'),
 ('三国演义', '罗贯中', '古典文学', '/static/covers/sanguoyanyi.svg', '历史演义小说经典', 1, '/static/books/sanguoyanyi.txt'),
 ('水浒传', '施耐庵', '古典文学', '/static/covers/shuihuzhuan.svg', '英雄传奇章回体长篇小说', 1, '/static/books/shuihuzhuan.txt'),
-('Pride and Prejudice', 'Jane Austen', '英文经典', '/static/covers/pride-and-prejudice.svg', 'Classic romance novel', 1, '/static/books/pride-and-prejudice.txt'),
-('Alice''s Adventures in Wonderland', 'Lewis Carroll', '英文经典', '/static/covers/alice-in-wonderland.svg', 'Children''s fantasy novel', 1, '/static/books/alice-in-wonderland.txt'),
-('Frankenstein', 'Mary Shelley', '英文经典', '/static/covers/frankenstein.svg', 'Gothic science fiction', 1, '/static/books/frankenstein.txt'),
-('The Adventures of Sherlock Holmes', 'Arthur Conan Doyle', '英文经典', '/static/covers/sherlock-holmes.svg', 'Detective short stories', 1, '/static/books/sherlock-holmes.txt'),
-('Moby Dick', 'Herman Melville', '英文经典', '/static/covers/moby-dick.svg', 'Adventure of the whaling ship Pequod', 1, '/static/books/moby-dick.txt'),
-('A Tale of Two Cities', 'Charles Dickens', '英文经典', '/static/covers/a-tale-of-two-cities.svg', 'Historical novel of the French Revolution', 1, '/static/books/a-tale-of-two-cities.txt');
+('Pride and Prejudice', 'Jane Austen', '英文经典', '/static/covers/pride-and-prejudice.jpg', 'Classic romance novel', 1, '/static/books/pride-and-prejudice.txt'),
+('Alice''s Adventures in Wonderland', 'Lewis Carroll', '英文经典', '/static/covers/alice-in-wonderland.jpg', 'Children''s fantasy novel', 1, '/static/books/alice-in-wonderland.txt'),
+('Frankenstein', 'Mary Shelley', '英文经典', '/static/covers/frankenstein.jpg', 'Gothic science fiction', 1, '/static/books/frankenstein.txt'),
+('The Adventures of Sherlock Holmes', 'Arthur Conan Doyle', '英文经典', '/static/covers/sherlock-holmes.jpg', 'Detective short stories', 1, '/static/books/sherlock-holmes.txt'),
+('Moby Dick', 'Herman Melville', '英文经典', '/static/covers/moby-dick.jpg', 'Adventure of the whaling ship Pequod', 1, '/static/books/moby-dick.txt'),
+('A Tale of Two Cities', 'Charles Dickens', '英文经典', '/static/covers/a-tale-of-two-cities.jpg', 'Historical novel of the French Revolution', 1, '/static/books/a-tale-of-two-cities.txt');
 
 -- 实体图书（供预约借阅）
 INSERT INTO books (title, author, category, cover_url, description, is_online, total_copies, available_copies) VALUES

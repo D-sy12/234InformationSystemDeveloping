@@ -256,7 +256,7 @@ onMounted(loadBooks)
               </el-tag>
             </template>
           </el-table-column>
-          <el-table-column label="操作" width="210" fixed="right">
+          <el-table-column label="操作" width="210">
             <template #default="{ row }">
               <el-button v-if="row.status === 'pending'" link type="primary" @click="approve(row)">通过并出借</el-button>
               <el-button v-if="row.status === 'borrowed'" link type="success" @click="markReturned(row)">标记归还</el-button>
