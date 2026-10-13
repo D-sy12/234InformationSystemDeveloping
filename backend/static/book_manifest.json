@@ -1,0 +1,108 @@
+[
+  {
+    "slug": "hongloumeng",
+    "title": "红楼梦",
+    "author": "曹雪芹",
+    "category": "古典文学",
+    "gutenberg_id": 24264,
+    "file": "/static/books/hongloumeng.txt",
+    "cover": "/static/covers/hongloumeng.svg",
+    "size": 2672979
+  },
+  {
+    "slug": "xiyouji",
+    "title": "西游记",
+    "author": "吴承恩",
+    "category": "古典文学",
+    "gutenberg_id": 23962,
+    "file": "/static/books/xiyouji.txt",
+    "cover": "/static/covers/xiyouji.svg",
+    "size": 2272303
+  },
+  {
+    "slug": "sanguoyanyi",
+    "title": "三国演义",
+    "author": "罗贯中",
+    "category": "古典文学",
+    "gutenberg_id": 23950,
+    "file": "/static/books/sanguoyanyi.txt",
+    "cover": "/static/covers/sanguoyanyi.svg",
+    "size": 1866052
+  },
+  {
+    "slug": "shuihuzhuan",
+    "title": "水浒传",
+    "author": "施耐庵",
+    "category": "古典文学",
+    "gutenberg_id": 23863,
+    "file": "/static/books/shuihuzhuan.txt",
+    "cover": "/static/covers/shuihuzhuan.svg",
+    "size": 1630026
+  },
+  {
+    "slug": "pride-and-prejudice",
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "category": "英文经典",
+    "gutenberg_id": 1342,
+    "isbn": "9780141439518",
+    "file": "/static/books/pride-and-prejudice.txt",
+    "cover": "/static/covers/pride-and-prejudice.svg",
+    "size": 768005
+  },
+  {
+    "slug": "alice-in-wonderland",
+    "title": "Alice's Adventures in Wonderland",
+    "author": "Lewis Carroll",
+    "category": "英文经典",
+    "gutenberg_id": 11,
+    "isbn": "9780141439761",
+    "file": "/static/books/alice-in-wonderland.txt",
+    "cover": "/static/covers/alice-in-wonderland.svg",
+    "size": 158799
+  },
+  {
+    "slug": "frankenstein",
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "category": "英文经典",
+    "gutenberg_id": 84,
+    "isbn": "9780140433623",
+    "file": "/static/books/frankenstein.txt",
+    "cover": "/static/covers/frankenstein.svg",
+    "size": 437346
+  },
+  {
+    "slug": "sherlock-holmes",
+    "title": "The Adventures of Sherlock Holmes",
+    "author": "Arthur Conan Doyle",
+    "category": "英文经典",
+    "gutenberg_id": 1661,
+    "isbn": "9780141039339",
+    "file": "/static/books/sherlock-holmes.txt",
+    "cover": "/static/covers/sherlock-holmes.svg",
+    "size": 600632
+  },
+  {
+    "slug": "moby-dick",
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "category": "英文经典",
+    "gutenberg_id": 2701,
+    "isbn": "9780142437247",
+    "file": "/static/books/moby-dick.txt",
+    "cover": "/static/covers/moby-dick.svg",
+    "size": 1279371
+  },
+  {
+    "slug": "a-tale-of-two-cities",
+    "title": "A Tale of Two Cities",
+    "author": "Charles Dickens",
+    "category": "英文经典",
+    "gutenberg_id": 98,
+    "isbn": "9780141439600",
+    "file": "/static/books/a-tale-of-two-cities.txt",
+    "cover": "/static/covers/a-tale-of-two-cities.svg",
+    "size": 804214
+  }
+]
